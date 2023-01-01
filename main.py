@@ -26,9 +26,9 @@ driver= webdriver.Chrome()
 
 driver.get("https://sera.com.au/")
 
-driver.find_element(By.XPATH, "/html/body/form/div/section/div[2]/div[2]/div/div/input[1]").send_keys("CAI")
-driver.find_element(By.XPATH,"/html/body/form/div/section/div[2]/div[2]/div/div/input[2]").send_keys("Odemirhan")
-driver.find_element(By.XPATH,"/html/body/form/div/section/div[2]/div[2]/div/div/input[3]").send_keys("Fwd7ygh52.")
+driver.find_element(By.XPATH, "/html/body/form/div/section/div[2]/div[2]/div/div/input[1]").send_keys("xxxx")
+driver.find_element(By.XPATH,"/html/body/form/div/section/div[2]/div[2]/div/div/input[2]").send_keys("xxxx")
+driver.find_element(By.XPATH,"/html/body/form/div/section/div[2]/div[2]/div/div/input[3]").send_keys("xxxx")
 time.sleep(1)
 driver.find_element(By.XPATH,'/html/body/form/div/section/div[2]/div[2]/div/div/input[4]').click()
 #alert_obj = driver.switch_to.alert
